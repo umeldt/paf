@@ -1,0 +1,66 @@
+body { font: 15px/1.2 'Georgia' serif; margin: 0 auto; width: 940px; }
+h1, h2, h3, #paf-head .nav { font-family: 'Georgia'; }
+
+#paf-head { margin: 0; position: relative; height: 125px; }
+#paf-head h1 { display: none; }
+
+hr { clear: right; }
+
+#paf-head .nav { position: absolute; bottom: 25px; }
+#paf-head .nav ul { list-style: none; padding: 0; }
+#paf-head .nav li { float: left; width: 115px; text-align: center; }
+
+#paf-head a { color: #000; }
+
+#flora-nav { left: 0; }
+#about-nav { right: 0; }
+
+.aside { margin: 0; width: 245px; margin-right: 15px; float: left; }
+
+#main.inactive { color: #aaa; }
+
+.extra { float: right; margin: 0 0 15px 15px; width: 240px; background: #eee; padding: 1em; }
+.extra { text-align: center; }
+.extra img { border: 1px solid #777; }
+
+.extra .distribution { text-align: left; }
+.extra .distribution h4 { margin: 0; }
+.extra .distribution p { font-size: smaller; }
+
+ul { list-style: none; padding-left: 0; }
+li { margin: 0.5em 0; }
+
+body { background: url(background.png) repeat-x; }
+#paf-head { background: url(logo.png) top center no-repeat; }
+
+/* other */
+#ext { margin-top: 4em; }
+#main { position: relative; margin-left: 260px; }
+
+a { text-decoration: none; color: #00f; }
+a:hover { color: #444; }
+
+h3.f { margin-top: 2em; }
+#taxonomy { clear: right; position: relative; }
+.simple-list { width: 50%; float: left; margin: 0; position: relative; }
+
+.expand { display: block; float: left; width: 1em; text-align: center; }
+.expand.childless { color: #fff; }
+.expand:hover { cursor: pointer; }
+li img { margin-left: 1em; }
+.nav { margin-top: 0; }
+h1 { margin-bottom: 0; }
+ul ul { margin-left: 1em; }
+
+.search fieldset { border: none; margin: 0 0 2em 0; padding: 0; }
+.search legend { font-weight: bold; padding: 0 1em 1em 0; margin: 0; }
+.search label { display: block; }
+.search #advanced { padding: 0 1em; background: #; border: 1px solid #777; display: none; }
+
+.contents ul { margin-left: 1em; }
+
+.imagelist { margin: 0; padding: 0; clear: right; padding: 1em; background: #333; text-align: center; overflow: auto; color: #eee; }
+.imagelist li { margin: 0; padding: 0; list-style: none; float: left; max-width: 250px; }
+.imagelist img { margin: 0; border: 1px solid #000; }
+.imagelist .source { color: #aaa; }
+

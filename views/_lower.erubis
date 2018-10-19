@@ -1,0 +1,66 @@
+<% entry.children.each do |child| %>
+
+<hr>
+<h2><%= child.paf_id %> <%= child.summary %></h2>
+
+<% if child.real_distribution.any? || child.gbif_id %>
+<div class="extra">
+  <% if child.real_distribution.any? %>
+  <div class="distribution">
+  <h4>Distribution</h4>
+  <p>
+  <% child.real_distribution.each do |distribution| %>
+  <%= distribution.summary %><br>
+  <% end %>
+  </p>
+  </div>
+  <% end %>
+
+  <% if child.gbif_id %>
+  <a href="http://www.gbif.org/species/<%= child.gbif_id %>">
+    GBIF
+  </a>
+  <% end %>
+</div>
+<% end %>
+
+<% if child.references.any? || !child.chromosomes.to_s.empty? || !child.geography.to_s.empty? || !child.html.empty? || child.members.any? %>
+
+<% if child.references.any? %>
+<ul>
+  <% child.references.each do |ref| %>
+  <% next if ref.raw[/^Section/] %>
+  <li><%= child.htmlize(ref.raw.gsub(/___(.+?)___/, '<i>\1</i>')) %></li>
+  <% end %>
+</ul>
+<% end %>
+
+<% unless child.chromosomes.to_s.empty? %>
+<p><b>2n=</b>
+<%= child.chromosomes.gsub(/\n+/, '<br>') %></p>
+<% end %>
+
+<% unless child.geography.to_s.empty? %>
+<p><b>Geography</b>: <%= child.geography %></p>
+<% end %>
+
+<% unless child.html.empty? %>
+<p><b>Notes</b>: <%= child.html %></p>
+<% end %>
+
+<% if child.members.any? %>
+<ul>
+  <% child.members.each do |member| %>
+  <li><%= member.summary %> - <%= member.geography %>
+  <% end %>
+</ul>
+<% end %>
+<% else %>
+<p>-</p>
+<% end %>
+
+<% if !child.children.empty? %>
+  <%= erb :_lower, :locals => { :entry => child }, :layout => false %>
+<% end %>
+
+<% end %>

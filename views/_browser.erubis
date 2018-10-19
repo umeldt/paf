@@ -1,0 +1,16 @@
+<h2>Browse</h2>
+<ul id="entries">
+  <% @entries.map do |entry| %>
+  <li>
+  <% if !entry.childless %>
+  <a class="expand" data-paf="<%= entry.paf_id %>">+</a>
+  <% else %>
+  <a class="expand childless">·</a>
+  <% end %>
+  <a class="paf" href="<%= path(entry.paf_id) %>">
+    <%= entry.short(:text) %>
+  </a>
+  </li>
+  <% end %>
+</ul>
+

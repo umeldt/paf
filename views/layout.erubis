@@ -1,0 +1,29 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Pan-arctic flora: Home</title>
+<link rel="stylesheet" href="/paf/paf.css">
+<script src="/paf/jquery.js"></script>
+<script src="/paf/paf.js"></script>
+
+<div class="header" id="paf-head">
+  <h1>Panarctic Flora</h1>
+
+  <div class="nav" id="flora-nav">
+    <ul>
+      <li><a href="<%= path('') %>">Home</a></li>
+      <li><a href="<%= path('/flora') %>">Browse</a></li>
+      <li><a href="<%= path('/search') %>">Search</a></li>
+    </ul>
+  </div>
+
+  <div class="nav" id="about-nav">
+    <ul>
+      <li><a href="<%= path('/introduction') %>">Introduction</a></li>
+      <li><a href="<%= path('/references') %>">References</a></li>
+      <li><a href="<%= path('/contact') %>">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<%= yield %>
+

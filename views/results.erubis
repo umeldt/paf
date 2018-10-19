@@ -1,0 +1,29 @@
+<div class="aside" id="browser">
+  <h2>Search Results</h2>
+  <% if @results.any? %>
+  <ul id="entries">
+    <% @results.map do |entry| %>
+    <li>
+    <a class="paf" href="<%= path(entry.paf_id) %>">
+      <%= entry.short(:text) %>
+    </a>
+    </li>
+    <% end %>
+  </ul>
+  <% else %>
+  <p><i>No results</i></p>
+  <% end %>
+</div>
+
+<div class="section" id="main">
+  <% if !@results.empty? %>
+  <script>
+    $(function() {
+      if(window.location.hash == '') {
+        window.location.hash = "#paf-<%= @results.first.paf_id %>";
+      } 
+    }); 
+  </script>
+  <% end %>
+</div>
+

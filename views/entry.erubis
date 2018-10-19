@@ -1,0 +1,18 @@
+<div class="aside" id="browser">
+  <%= erb :_browser %>
+</div>
+
+<div class="section" id="main">
+  <% if @entry %>
+  <%= erb :_entry if @entry %>
+  <% else %>
+  <script>
+    $(function() {
+      if(window.location.hash == '') {
+        window.location.hash = "#paf-01";
+      } 
+    }); 
+  </script>
+  <% end %>
+</div>
+

@@ -1,0 +1,76 @@
+<div id="main" class="search">
+<h2>Search</h2>
+  <form id="search" method="get" action="<%= path('/results') %>">
+    <p style="display: none;"><a href="#" id="show-advanced">Advanced search...</a></p>
+  
+    <div id="advanced">
+      <fieldset>
+        <legend>Distribution</legend>
+        <p>
+          <label>Biogeographic region</label>
+          <select name="biogeographic">
+            <option value=""> - Any - </option>
+            <option value="Ic">Northern Iceland (incl. Jan Mayen, ICE + NOR)</option>
+            <option value="FN">Northern Fennoscandia (Norway and the Murman coast, NOR + RUS)</option>
+            <option value="KP">Kanin - Pechora (RUS)</option>
+            <option value="SF">Svalbard - Franz Joseph Land (NOR + RUS)</option>
+            <option value="UN">Polar Ural - Novaya Zemlya (RUS)</option>
+            <option value="YG">Yamal - Gydan (SIB)</option>
+            <option value="Tm">Taimyr - Severnaya Zemlya (SIB)</option>
+            <option value="AO">Anabar - Onenyo (incl. the lower Lena River area, west bank, and the delta, SIB)</option>
+            <option value="Kh">Kharaulakh (the lower Lena River area, east bank, SIB)</option>
+            <option value="YK">Yana - Kolyma (incl. the New Siberian Islands, SIB)</option>
+            <option value="CW">West Chukotka (RFE)</option>
+            <option value="WI">Wrangel Island (incl. Herald Island, RFE)</option>
+            <option value="CS">South Chukotka (RFE)</option>
+            <option value="CE">East Chukotka (incl. the Russian northern Bering Sea island of Big Diomede, RFE)</option>
+            <option value="AW">Western Alaska (incl. the American northern Bering Sea islands, ALA)</option>
+            <option value="AN">Northern Alaska - the Yukon Territory (ALA + CAN)</option>
+            <option value="CC">Central Canada (CAN)</option>
+            <option value="HL">Hudson Bay - Labrador (incl. southern Baffin Island, CAN)</option>
+            <option value="EP">Ellesmere Island - northern Greenland (CAN + GRL)</option>
+            <option value="GW">Western Greenland (incl. southernmost Greenland, GRL)</option>
+            <option value="GE">Eastern Greenland (GRL)</option>
+          </select>
+        </p>
+
+        <p>
+          <label>Bioclimatic zone</label>
+          <select name="bioclimatic">
+            <option value=""> - Any - </option>
+            <option value="A">Polar desert</option>
+            <option value="B">Northern Arctic Tundra Zone</option>
+            <option value="C">Mid Arctic Tundra Zone</option>
+            <option value="D">Southern Arctic Tundra Zone</option>
+            <option value="E">Shrub Tundra Zone</option>
+            <option value="N">Bordering boreal or alpine areas</option>
+          </select>
+        </p>
+
+        <p>
+          <label>Region</label>
+          <select name="region">
+            <option value=""> - Any - </option>
+            <option value="CAN">Canada</option>
+            <option value="ICE">Iceland</option>
+            <option value="GRL">Greenland</option>
+            <option value="NOR">Norway</option>
+            <option value="RFE">Russian Far East</option>
+            <option value="RUS">European Russia</option>
+            <option value="SIB">Siberia</option>
+            <option value="ALA">USA (Alaska)</option>
+          </select>
+        </p>
+      </fieldset>
+    </div>
+
+    <fieldset>
+      <p>
+        <label>Name</label>
+        <input id="name" type="text" name="name" size="32">
+        <input type="submit" value="Search">
+      </p>
+    </fieldset>
+  </form>
+
+</div>

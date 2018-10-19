@@ -1,0 +1,93 @@
+<h2><%= @entry.paf_id %> <%= @entry.summary %></h2>
+
+<% if @entry.real_distribution.any? || @entry.gbif_id %>
+<div class="extra">
+  <% if @entry.real_distribution.any? %>
+  <div class="distribution">
+  <h4>Distribution</h4>
+  <p>
+  <% @entry.real_distribution.each do |distribution| %>
+  <%= distribution.summary %><br>
+  <% end %>
+  </p>
+  </div>
+  <% end %>
+
+  <% if @entry.gbif_id %>
+  <a href="http://data.gbif.org/species/<%= @entry.gbif_id %>">
+    <img src="http://ogc.gbif.org/wms?request=GetMap&amp;bgcolor=0x666698&amp;styles=,,&amp;layers=gbif:country_fill,gbif:tabDensityLayer,gbif:country_borders&amp;srs=EPSG:4326&amp;filter=()(<Filter><PropertyIsEqualTo><PropertyName>url</PropertyName><Literal><![CDATA[http%3A%2F%2Fdata.gbif.org%2Fmaplayer%2Ftaxon%2F<%= @entry.gbif_id %>]]></Literal></PropertyIsEqualTo></Filter>)()&amp;width=240&amp;height=120&amp;Format=image/png&amp;bbox=-180,-90,180,90">
+  </a>
+  <br>
+  <small>GBIF</small>
+  <% end %>
+</div>
+<% end %>
+
+<% if @entry.references.any? || !@entry.chromosomes.to_s.empty? || !@entry.geography.to_s.empty? || !@entry.html.empty? || @entry.members.any? %>
+
+<% if @entry.references.any? %>
+<ul>
+  <% @entry.references.each do |ref| %>
+  <% next if ref.raw[/^Section/] %>
+  <li><%= @entry.htmlize(ref.raw.gsub(/___(.+?)___/, '<i>\1</i>')) %></li>
+  <% end %>
+</ul>
+<% end %>
+
+<% unless @entry.chromosomes.to_s.empty? %>
+<p><b>2n=</b>
+<%= @entry.chromosomes.gsub(/\n+/, '<br>') %></p>
+<% end %>
+
+<% unless @entry.geography.to_s.empty? %>
+<p><b>Geography</b>: <%= @entry.geography %></p>
+<% end %>
+
+<% unless @entry.html.empty? %>
+<p><b>Notes</b>: <%= @entry.html %></p>
+<% end %>
+
+<% if @entry.members.any? %>
+<ul>
+  <% @entry.members.each do |member| %>
+  <li><%= member.summary %> - <%= member.geography %>
+  <% end %>
+</ul>
+<% end %>
+<% else %>
+<p>-</p>
+<% end %>
+
+<% if @entry.images.any? %>
+<ul class="imagelist">
+  <% @entry.images.each do |image| %>
+  <li>
+    <a href="<%= image.source_url %>">
+      <img src="<%= path(image.url) %>">
+    </a><br>
+    <small class="description"><%= image.text %></small><br>
+    <small class="source">Source: <i><%= image.author %></i> at <i><%= image.source %></i></small>
+  </li>
+  <% end %>
+</ul>
+<% end %>
+
+<div id="taxonomy">
+<% if parent = Entry[:paf_id => @entry.parent] %>
+<div class="simple-list">
+<h3 class='f'>Higher Taxa</h3>
+<ul class="children">
+  <li><a class="paf" href="<%= path(parent.paf_id) %>"><%= parent.short(:text) %></a> [<%= [parent.paf_id, parent.ranking].join(',') %>]</li>
+</ul>
+<% end %>
+</div>
+
+<% if !@entry.children.empty? %>
+<div class="simple-list">
+<h3 class='f'>Lower Taxa (<a id="show-all">#</a>)</h3>
+<%= erb :_tax, :layout => false, :locals => { :children => @entry.children } %>
+</div>
+<% end %>
+</div>
+
+

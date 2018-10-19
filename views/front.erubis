@@ -1,0 +1,222 @@
+<div class="contents aside">
+  <h4><a href="#preface">Preface</a></h4>
+
+  <h4><a href="#acknowledgements">Acknowledgement</a></h4>
+
+  <h4><a href="#contributors">Contributors</a></h4>
+  <ul>
+    <li><a href="#contributors-a">Contributors of initial drafts</a>
+    <li><a href="#contributors-b">Contributors of notes and information</a>
+  </ul>
+</div>
+
+<div id="main">
+  <h2>Annotated Checklist of the Panarctic Flora (PAF)<br>Vascular plants</h2>
+
+  <p>Editor-in-Chief</p>
+
+  <p><b>Reidar Elven<br>
+  Natural History Museum,<br>
+  University of Oslo</b></p>
+
+  <p>Editorial Committee</p>
+
+  <p><b>Reidar Elven, Natural History Museum, University of Oslo, Norway<br>
+  David F. Murray, Museum of the North, University of Alaska, Fairbanks, U.S.A.<br>
+  Volodya Yu. Razzhivin, Komarov Botanical Institute, Russian Academy of Sciences, St. Petersburg, Russia<br>
+  Boris A. Yurtsev [deceased], Komarov Botanical Institute, Russian Academy of Sciences, St. Petersburg, Russia</b></p>
+
+  <p>Panarctic Flora Project Steering Committee</p>
+
+  <p><b>Susan G. Aiken, Canadian Museum of Nature, Ottawa, Canada<br />
+  Reidar Elven, Natural History Museum, University of Oslo, Norway<br />
+  Hördur Kristinsson, Icelandic Institute of Natural History, Akureyri Division, Akureyri, Iceland<br />
+  David F. Murray, Museum of the North, University of Alaska, Fairbanks, U.S.A.<br />
+  Inger Nordal, Biological Institute, University of Oslo, Oslo, Norway<br />
+  Boris A. Yurtsev, Komarov Botanical Institute, Russian Academy of Sciences, St. Petersburg, Russia</b></p>
+
+  <h4 id="preface">Preface</h4>
+
+  <p>What follows is our contribution to a unified list of accepted names for arctic vascular plants. This list is annotated to highlight and explain taxonomic problems and to make clear our approach to taxonomic solutions or, in the absence of solutions, to the disagreements.</p>
+
+  <p>We realize that as you read this, the Checklist is already in need of modification as new data are being published at a rapid rate. It will always be a work in progress. Our plan is that this Version 1.0 will become 1.1, 1.2, and so on as warranted. To a great extent we will rely on readers&#8217; comments, and we invite you to send corrections and additions to Reidar Elven (Oslo; reidar.elven@nhm.uio.no) or David Murray (Fairbanks; dfmurray@alaska.edu).</p>
+
+  <p>As is made clear in the Introduction that follows, this has been a collaborative effort involving many individuals and institutions. Specialists from many countries have provided a full Panarctic analysis. The comments of monographers and regional experts are identified in the text. But all those people are but a subset of the many who can and we hope will offer improvements. We look forward to a lively correspondence.</p>
+
+  <h4 id="acknowledgements">Acknowledgements</h4>
+
+  <p>The Panarctic Flora Project (PAF), of which this Checklist is part, was initially a bi-national effort that emerged after exchange visits between the Komarov Botanical Institute, St. Petersburg, and the University of Alaska Museum of the North, Fairbanks, under Area V of the Environmental Agreement between the two countries to promote joint work on, among other things, rare plants. Steven Kohl, International Programs of the U.S. Fish and Wildlife Services, managed these exchanges and Thomas Elias was group leader. The exchanges that began for us in 1981 made possible extended stays for herbarium study and field work in Russia and Alaska.</p>
+
+  <p>Dr. Peter Raven, Missouri Botanical Garden, St. Louis, was instrumental in getting U.S. and Russian academies of sciences support for the project, which was essential to engage the Russian team. He has continued to be a source of inspiration.</p>
+
+  <p>The U.S. National Science Foundation, International Programs, funded two workshops in Russia (1991 and 1992) to establish checklist guidelines and to explore the feasibility of computerized databases as the basis for the Checklist.</p>
+
+  <p>The U.S. National Park Service, Beringian Program, provided the funding for joint U.S.–Russian fieldwork on the Seward Peninsula, Alaska, in 1992 and 1993. Dale Taylor was the driving force at NPS that made these very successful expeditions possible.</p>
+
+  <p>With the addition of Norwegian scientists, the project became fully international. A grant was awarded to Inger Nordal and Reidar Elven from the Norwegian Academy of Sciences, supporting a "Panarctic Year" at the Center for Advanced Study (CAS), Oslo, in 1998 and 1999. CAS became the locus for a symposium and for workshops on problem taxa where participants from the United States, Canada, United Kingdom, Norway, Sweden, and Russia were resident at CAS. The facilities and the general environment at CAS wonderfully supported discussions and collaborative study among specialists from countries with circumpolar interests. The "Panarctic Year" resulted in the volume Nordal and Razzhivin (1999) and in the initiation of the Checklist process.</p>
+
+  <p>Endorsement of our project by CAFF (Conservation of Arctic Fauna and Flora) was received. We appreciate the moral support from CAFF and especially from Stephen Talbot who leads the Circumpolar Flora Group and has urged the PAF activity toward completion.</p>
+
+  <p>In the period after the "Panarctic Year" at CAS, the main supporter of the Checklist project has been the National Center of Biosystematics (NCB) at the Natural History Museum, University of Oslo, where R. Elven has been connected as Editor-in-Chief and where the NCB leader, Dr. Christian Brochmann, has provided material support for extensive travel, both to herbaria and to the field in Siberia (Yakutia), Chukotka, Alaska, and northwestern Canada. Without this support, the current product would certainly not have seen light.</p>
+
+  <p>Two other institutions have greatly facilitated the accumulation of circumpolar knowledge necessary for the Checklist. The Swedish Polar secretariat, the Swedish Academy of Sciences, arranged and funded two important ship-based expeditions through essential parts of the Arctic: the "Tundra North-west" expedition through the Northwest Passage in Canada in 1999 and the "Beringia" expedition across the Bering Strait and Chukchi Sea in 2005. The material and experiences collected by Elven (1999, 2005) and Solstad (2005) during these expeditions have been invaluable. The U.S. National Park Services initiated an inventory of the Alaskan protected areas. Through the initiative of Carolyn Parker, UAF Museum, Elven and Solstad were invited to participate in the works in the parks and reserves in western and northern Alaska in 2001–2003. The impressions and experiences during this period have been decisive for very many items in the Checklist.</p>
+
+  <p>A major source of information is herbaria and libraries. The curators, librarians, and additional staff at the following institutions, which were the main ones utilized, were very helpful and our thanks to all of them: ALA (Fairbanks), AMNH (Akureyri), BM and K (London), C (Copenhagen), CAN and DAO (Ottawa), G (Geneve), ICEL (Reykjavik), LE (St. Petersburg), MHA and MW (Moscow), MO (St. Louis), MT (Montreal), NS and NSK (Novosibirsk), O (Oslo), S (Stockholm), TRH (Trondheim), TROM (Tromsø), and TK (Tomsk).</p>
+
+  
+  <h4 id="contributors">Contributors</h4>
+
+  <h4 id="contributors-a">A  Contributors of initial drafts (PAF proposals)</h4>
+
+  <p>G.W. Argus, Canada. – Salicaceae (with R. Elven and A.K. Skvortsov).<br />
+  T.V. Egorova [deceased], Russia. – Cyperaceae (except for <i>Eriophorum</i>; <i>Carex</i> with R. Elven and D.F. Murray), Juncaceae, Linaceae (with R. Elven).<br />
+  R. Elven, Norway. &#8211; Adoxaceae, Amaranthaceae (<i>Salicornia</i>), Apiaceae (<i>Myrrhis</i>), Araceae, Asteraceae (<i>Centaurea</i> and <i>Chrysanthemum</i>; <i>Hieracium</i>, <i>Pilosella</i>, and <i>Stenotheca</i> partly with A.N. Sennikov; <i>Taraxacum</i> with N.N. Tzvelev and B.A. Yurtsev), Balsaminaceae, Betulaceae, Blechnaceae, Brassicaceae (the majority of genera, with V.V. Petrovsky and B.A. Yurtsev), Campanulaceae (with B.A. Yurtsev), Caprifoliaceae, Caryophyllaceae (with V.V. Petrovsky), Ceratophyllaceae, Cornaceae, Cupressaceae, Droseraceae, Elaeagnaceae, Elatinaceae, Ericaceae (<i>Gaultheria</i>), Fumariaceae, Gentianaceae, Geraniaceae, Haloragaceae, Lamiaceae, Lentibulariaceae, Liliaceae (<i>Fritillaria</i>), Linaceae (with T.V. Egorova), Linnaeaceae, Menyanthaceae, Myricaceae, Orchidaceae (<i>Epipactis</i>), Orobanchaceae (<i>Boschniakia</i>), Oxalidaceae, Papaveraceae (with D.F. Murray, V.V. Petrovsky, and H. Solstad), Phrymaceae, Pinaceae, Plantaginaceae (<i>Callitriche</i>, <i>Littorella</i>, <i>Plantago</i>), Plumbaginaceae, Poaceae (x<i>Duarctopoa</i>, <i>Hystrix</i>, <i>Limnas</i>), Polemoniaceae (with D.F. Murray), Polygalaceae, Polygonaceae, Ranunculaceae (<i>Coptidium, Halerpestes, Ranunculus, Thalictrum</i>), Rosaceae (<i>Chamaerhodos, Fragaria, Geum p.p., Luetkea, Sanguisorba</i>; <i>Dryas</i> and <i>Potentilla</i> with D.F. Murray and B.A. Yurtsev), Salicaceae (with G.W. Argus and A.K. Skvortsov), Santalaceae, Saxifragaceae (<i>Heuchera, Leptarrhena, Mitella</i>), Valerianaceae, Violaceae (with N.N. Tzvelev), Woodsiaceae (<i>Diplazium</i>, <i>Matteuccia</i>).<br />
+  V.N. Gladkova, Russia. – Grossulariaceae, Rosaceae (<i>Amelanchier, Aruncus, Comarum, Cotoneaster, Dasiphora, Filipendula, Prunus, Rosa, Rubus, Sorbus, Spiraea</i>).<br />
+  L.I. Ivanina, Russia. – Plantaginaceae (the majority of genera), Orobanchaceae (the majority of genera), Scrophulariaceae.<br />
+  A.A. Korobkov, Russia. – Amaranthaceae (the majority of genera), Asteraceae (the majority of genera), Crassulaceae, Euphorbiaceae, Myrsinaceae, Primulaceae, Urticaceae.<br />
+  D.F. Murray, U.S.A. – Cyperaceae (<i>Carex</i> with T.V. Egorova and R. Elven), Papaveraceae (with R. Elven, V.V. Petrovsky, and H. Solstad), Polemoniaceae (<i>Polemonium</i> with R. Elven), Rosaceae (<i>Dryas</i> and <i>Potentilla</i> with R. Elven and B.A. Yurtsev).<br />
+  M.S. Novoselova, Russia. – Cyperaceae (<i>Eriophorum</i>).<br />
+  V.V. Petrovsky, Russia. – Boraginaceae, Brassicaceae (the majority of genera, with R. Elven), Caryophyllaceae (with R. Elven), Papaveraceae (with R. Elven, D.F. Murray, and H. Solstad), Parnassiaceae, Saxifragaceae (<i>Boykinia, Chrysosplenium</i>).<br />
+  O.V. Rebristaya, Russia. – Alliaceae, Convallariaceae, Iridaceae, Liliaceae, Melanthiaceae, Nartheciaceae, Nymphaeaceae, Orchidaceae, Orobanchaceae (<i>Castilleja</i>), Paeoniaceae, Ranunculaceae (<i>Actaea, Anemone, Caltha, Clematis, Coptis, Pulsatilla, Trollius</i>).<br />
+  A.N. Sennikov, Russia and Finland. – Asteraceae (<i>Hieracium</i>, <i>Pilosella</i>, and <i>Stenotheca</i> with R. Elven; <i>Crepis</i>).<br />
+  A.K. Skvortsov, Russia. – Onagraceae, Salicaceae (with G.W. Argus and R. Elven).<br />
+  V.N. Tikhomirov [deceased], Russia. – Apiaceae, Rosaceae (<i>Alchemilla</i>).<br />
+  N.N. Tzvelev, Russia. – Adiantaceae, Alismataceae, Araceae (<i>Lemna</i>), Asteraceae (<i>Taraxacum</i> with R. Elven and B.A. Yurtsev), Aspleniaceae, Butomaceae, Dryopteridaceae, Equisetaceae, Ericaceae (<i>Empetrum</i>), Isoetaceae, Juncaginaceae, Lycopodiaceae, Ophioglossaceae, Poaceae, Polypodiaceae, Potamogetonaceae, Rubiaceae, Scheuchzeriaceae, Selaginellaceae, Sparganiaceae, Thelypteridaceae, Violaceae (with R. Elven), Woodsiaceae, Zosteraceae.<br />
+  B.A. Yurtsev [deceased], Russia. – Asteraceae (<i>Taraxacum</i> with R. Elven and N.N. Tzvelev), Brassicaceae (<i>Noccaea</i> with R. Elven; <i>Smelowskia</i>, <i>Transberingia</i>), Campanulaceae (with R. Elven), Diapensiaceae, Ericaceae (the majority of genera), Fabaceae, Portulacaceae, Ranunculaceae (<i>Aconitum, Aquilegia, Delphinium, Oxygraphis</i>), Rosaceae (<i>Geum p.p., Sibbaldia, Sibbaldiopsis</i>; <i>Dryas</i> and <i>Potentilla</i> with R. Elven and D.F. Murray).</p>
+  P.Yu. Zhmylev, Russia. – Saxifragaceae (<i>Micranthes</i>, <i>Saxifraga</i>).
+
+  <h4 id="contributors-b">B  Contributors of notes and information</h4>
+  Formal and informal comments, unpublished information, field observations, and alternative viewpoints as to taxonomy:
+
+  <p>S.G. Aiken, Canada. – <i>Carex</i>, <i>Chrysosplenium</i>, <i>Diapensia</i>, <i>Eriophorum</i>, Poaceae (several genera), <i>Potentilla</i>, <i>Ranunculus</i>, <i>Saxifraga</i>, <i>Viscaria</i>, Canadian distribution data<br />
+  I.A. Al-Shehbaz, St. Louis, U.S.A. – <i>Arabidopsis</i>, <i>Draba</i>, <i>Nesodraba</i>, <i>Smelowskia</i>.<br />
+  I.G. Alsos, Norway. – <i>Betula nana</i>, <i>Poa</i>, <i>Puccinellia</i>, <i>Vaccinium uliginosum</i>, Svalbard data.<br />
+  B. Andersen, Norway. – the <i>Draba cinerea</i> group.<br />
+  G.W. Argus, Canada. – <i>Chosenia</i>, <i>Salix</i>.<br />
+  M. Aronsson, Sweden. – <i>Antennaria alpina</i> s. lat.<br />
+  P.W. Ball, Canada. – Cyperaceae (several genera), <i>Salicornia</i>.<br />
+  T.M. Barkley [deceased], U.S.A. – <i>Arnica</i>, <i>Parasenecio</i>.<br />
+  A.R. Batten, U.S.A. – <i>Saussurea</i>, Alaskan data.<br />
+  B. Bennett, Canada. – <i>Carex</i>, <i>Gentianopsis</i>, <i>Papaver</i>, <i>Saxifraga</i>, Yukon Territory and Northwest Territory data.<br />
+  R.Y. Berg, Norway. – <i>Cystopteris fragilis</i> s. lat.<br />
+  T. Berg, Norway. – <i>Salix</i>.<br />
+  C.S. Bjorå, Norway. – <i>Cochlearia</i>.<br />
+  M. Blondeau, Canada. – the <i>Saxifraga rivularis</i> group, Canadian distribution data,<br />
+  L. Borgen, Norway. – <i>Puccinellia</i>.<br />
+  C. Brochmann, Norway. – <i>Draba</i>, <i>Saxifraga</i>.<br />
+  L. Brouillet, Canada. – <i>Micranthes</i>, <i>Saxifraga</i>.<br />
+  A.K. Brysting, Norway. – x<i>Arctodupontia</i>, <i>Cerastium</i>, <i>Dupontia</i>, <i>Poa</i>.<br />
+  T.A. Carlsen, Norway. – <i>Cardamine</i>, <i>Rorippa</i>, <i>Smelowskia</i>.<br />
+  J. Cayouette, Canada. – <i>Carex</i>, <i>Eriophorum</i>, <i>Potentilla</i>, Canadian distribution data.<br />
+  J. Chmielewski, Canada. – <i>Antennaria</i>.<br />
+  W.J. Cody [deceased], Canada. – <i>Dryas</i>, <i>Equisetum</i>, <i>Erigeron</i>, <i>Lappula</i>, <i>Potentilla</i>, <i>Veronica</i>, Canadian distribution data (especially Yukon Territory).<br />
+  L.L. Consaul, Canada. – <i>Puccinellia</i>, Canadian data.<br />
+  S.J. Darbyshire, Canada. – x<i>Duarctopoa</i>.<br />
+  T.V. Egorova [deceased], Russia. – <i>Cardamine</i>, Cyperaceae, <i>Draba</i>, Juncaceae, <i>Linum</i>, typification and nomenclature.<br />
+  F. Ehrendorfer, Austria. – <i>Artemisia</i>.<br />
+  D. Ehrich, Norway. – <i>Arabis alpina</i>, <i>Avenella</i>.<br />
+  P.B. Eidesen, Norway. – <i>Cassiope</i>, <i>Puccinellia</i>.<br />
+  E. Einarsson, Iceland. – <i>Eriophorum</i>.<br />
+  A. Elvebakk, Norway. – <i>Calamagrostis</i>, <i>Puccinellia</i>.<br />
+  R. Elven, Norway. – Throughout.<br />
+  T. Engelskjøn, Norway. – <i>Carex</i>.<br />
+  S. Ericsson, Sweden. – <i>Alchemilla</i>, <i>Erysimum</i>, <i>Ranunculus</i>.<br />
+  B. Eriksen, Sweden. – the <i>Potentilla</i> group of genera.<br />
+  T. Eriksson, Sweden. – the <i>Potentilla</i> group of genera.<br />
+  B.J. Ertter, U.S.A. – the <i>Potentilla</i> group of genera.<br />
+  S. Fjellheim, Norway. – the <i>Festuca brachyphylla</i> group, <i>Schedonorus</i>.<br />
+  K.I. Flatberg, Norway. – x<i>Arctodupontia</i>.<br />
+  B.A. Ford, Canada. – <i>Carex</i>.<br />
+  K. Fredriksen, Norway. – <i>Atriplex lapponica</i>.<br />
+  L. Fröberg, Sweden. – Apiaceae.<br />
+  T.M. Gabrielsen, Norway. – <i>Saxifraga cernua</i> and relatives.<br />
+  K. Gandhi, U.S.A. – Nomenclature.<br />
+  L.L. Gillespie, Canada. – <i>Oxytropis</i>, <i>Poa</i>, <i>Puccinellia</i>, <i>Saxifraga</i>, Canadian data.<br />
+  V.N. Gladkova, Russia. – <i>Aruncus</i>, <i>Filipendula</i>, <i>Lonicera caerulea</i>, <i>Prunus</i>, <i>Ribes</i>, <i>Rosa</i>, <i>Rubus</i>, <i>Sorbus</i>.<br />
+  J. Grant, U.S.A. – <i>Parrya</i>.<br />
+  C.W. Greene [deceased], U.S.A.. – <i>Calamagrostis</i>.<br />
+  H.H. Grundt, Norway. – <i>Cerastium</i>, <i>Draba</i>.<br />
+  A.S. Guldahl, Norway. – the <i>Festuca brachyphylla</i> group, the <i>Saxifraga rivularis</i> group.<br />
+  G. Gusarova, Norway / Russia. – <i>Euphrasia</i>.<br />
+  L. Gustafsson, Sweden. – <i>Cochlearia</i>.<br />
+  E. Hamre, Norway. – <i>Potentilla</i>.<br />
+  K.T. Hansen, Norway. – <i>Potentilla</i>.<br />
+  J.G. Harris, U.S.A. – <i>Braya</i>.<br />
+  J. Haugen, Norway. – <i>Poa</i>.<br />
+  S.G. Hay, U.S.A. – <i>Botrychium</i>.<br />
+  M. Hedrén, Sweden. – the <i>Carex viridula</i> group, <i>Dactylorhiza</i>.<br />
+  P.C. Hoch, U.S.A. – Onagraceae.<br />
+  U.-M. Hultgård, Sweden. – <i>Koenigia</i>, <i>Parnassia palustris</i> s. lat., the <i>Primula farinosa</i> group.<br />
+  L.I., Ivanina, Russia. – <i>Euphrasia</i>, <i>Melampyrum</i>, <i>Pedicularis</i>.<br />
+  A.W. Johnson, U.S.A. – <i>Thalictrum alpinum</i>.<br />
+  B. Jonsell, Sweden. – Nomenclature.<br />
+  J.L. Jorgensen, U.S.A. – the <i>Oxytropis campestris – arctica</i> groups.<br />
+  M.H. Jørgensen, Norway. – <i>Cardamine</i>, the <i>Saxifraga rivularis</i> group.<br />
+  P.M. Jørgensen, Norway. – <i>Rhododendron</i>.<br />
+  B. Kanz, Norway. – <i>Juncus squarrosus</i> in Svalbard.<br />
+  M. Kapralov, Russia. – the <i>Saxifraga cernua – sibirica</i> group.<br />
+  T. Karlsson, Sweden. – <i>Euphrasia</i>.<br />
+  A.E. Katenin, Russia. – <i>Populus</i>.<br />
+  S. Kelso, U.S.A. – Full revision of the Myrsinaceae and Primulaceae draft.<br />
+  J. Kirschner, Checz Republic. – Full revision of the Juncaceae draft.<br />
+  G. Knaben [deceased], Norway. – <i>Pyrola minor</i>.<br />
+  A.A. Korobkov, Russia. – <i>Amaranthus</i>, Asteraceae, <i>Atriplex</i>, <i>Axyris</i>, Crassulaceae, <i>Leontodon</i>, Myrsinaceae, Primulaceae.<br />
+  H. Kristinsson, Iceland. – <i>Alchemilla</i>, <i>Carex</i>, <i>Euphrasia</i>, <i>Lupinus</i>, <i>Myriophyllum spicatum</i>, <i>Primula egaliksensis</i>, <i>Saxifraga rosacea</i>, <i>Valeriana</i>, Icelandic data.<br />
+  R. Lipkin, U.S.A. – <i>Dupontia</i>.<br />
+  M. Lomonosova, Russia. – <i>Cystopteris</i>, <i>Euphorbia</i>.<br />
+  K.A. Lye, Norway. – <i>Bolboschoenus</i>, <i>Carex</i>.<br />
+  T. Marcussen, Norway. – <i>Viola</i>.<br />
+  J. McNeill, Canada. – <i>Cherleria</i>, <i>Minuartia</i>, other Caryophyllaceae.<br />
+  V. Mirré, Norway. – <i>Empetrum</i>.<br />
+  U. Molau, Sweden. – the <i>Pedicularis sudetica</i> group.<br />
+  J.K. Morton, Canada. – Caryophyllaceae.<br />
+  G.A. Mulligan, Canada. – Several groups, especially Brassicaceae.<br />
+  D.F. Murray, U.S.A. – Throughout.<br />
+  Ö. Nilsson, Sweden. – <i>Erigeron borealis</i>, <i>Papaver</i>.<br />
+  I. Nordal, Norway. – <i>Cochlearia</i>, <i>Dryas</i>, <i>Mertensia</i>, <i>Viola</i>.<br />
+  M.S. Novoselova, Russia. – <i>Eriophorum</i>.<br />
+  J. Nyléhn, Norway. – the <i>Potentilla crantzii</i> and <i>P. nivea</i> groups.<br />
+  H. Øllgaard, Denmark. – <i>Taraxacum</i>.<br />
+  B. Oxelman, Sweden. – Caryophyllaceae, especially <i>Silene</i>.<br />
+  J.G. Packer, Canada. – <i>Chrysosplenium</i>, <i>Mertensia</i>.<br />
+  J. Pálsson, Iceland. – <i>Betula</i>.<br />
+  C.L. Parker, U.S.A. – Several groups, Alaskan data.<br />
+  A. Pedersen [deceased], Denmark. – <i>Valeriana</i>.<br />
+  H.Æ. Pedersen, Denmark. – Orchidaceae.<br />
+  V.V. Petrovsky, Russia. – <i>Antennaria</i>, <i>Bistorta</i>, Boraginaceae, Brassicaceae, Caryophyllaceae, <i>Chrysosplenium</i>, <i>Erigeron</i>, <i>Lagotis</i>, <i>Papaver</i>, <i>Polemonium</i>, <i>Rumex</i>, <br />
+  M. Popp, Norway / Sweden. – <i>Silene</i>.<br />
+  P.H. Raven, U.S.A. – <i>Epilobium</i>.<br />
+  O.V. Rebristaya, Russia. – <i>Cardamine</i>, <i>Castilleja</i>, <i>Iris</i>, <i>Nuphar</i>, Orchidaceae, Ranunculaceae.<br />
+  L.G. Reinhammar, Sweden. – <i>Carex capitata</i> s. lat., <i>Pseudorchis</i>.<br />
+  J. Reveal, U.S.A. – <i>Potentilla &#8216;verna&#8217;</i>.<br />
+  L. Ryvarden, Norway. – <i>Crepis</i>, <i>Draba</i>, <i>Festuca</i>.<br />
+  B. Salomon, Sweden. – <i>Elymus</i>.<br />
+  A.-C. Scheen, Norway. – <i>Cerastium</i>, <i>Draba</i>.<br />
+  P. Schönswetter, Austria. – the <i>Carex bigelowii</i> group, <i>Equisetum arvense</i>, <i>Juncus biglumis</i>.<br />
+  N. Sekretareva, Russia. – Russian distribution data.<br />
+  A.N. Sennikov, Finland / Russia. – <i>Crepis</i>, <i>Hieracium</i>, <i>Pilosella</i>, <i>Stenotheca</i>.<br />
+  L.A. Sergienko, Russia. – <i>Puccinellia</i>.<br />
+  O. Skarpaas, Norway. – <i>Mertensia</i>.<br />
+  I. Skrede, Norway. – <i>Dryas</i>.<br />
+  A.K. Skvortsov, Russia. – <i>Epilobium</i>, <i>Salix</i>.<br />
+  S.G. Smith, U.S.A. – <i>Scirpus</i> s. lat.<br />
+  S. Snogerup, Sweden. – <i>Epilobium ciliatum</i>, <i>Juncus</i>.<br />
+  J. Soják, Czech Republic. – the <i>Potentilla</i> group of genera, especially <i>Potentilla</i>.<br />
+  H. Solstad, Norway. – Numerous groups throughout, especially <i>Papaver</i>, Icelandic data.<br />
+  R. Soreng, U.S.A. – Poaceae.<br />
+  N.W. Steen, Norway. – <i>Phippsia</i>, x<i>Pucciphippsia</i>.<br />
+  M. Stensvold, U.S.A. – <i>Botrychium</i>.<br />
+  V.N., Tikhomirov [deceased], Russia. – <i>Alchemilla</i>, Apiaceae.<br />
+  M.M. Tollefsrud, Norway. – <i>Picea abies</i>.<br />
+  M. Töpel, Sweden. – the <i>Potentilla</i> group of genera.<br />
+  A. Tribsch, Austria. – <i>Eritrichium</i>, <i>Micranthes</i>, <i>Oxytropis</i>, <i>Pedicularis</i>, <i>Thalictrum</i>.<br />
+  N.N. Tzvelev, Russia. – Numerous groups throughout, especially aquatic monocots, <i>Galium</i>, <i>Larix</i>, <i>Plantago</i>, Poaceae, <i>Polemonium</i>, Polygonaceae, Pteridophytes, <i>Ranunculus</i> s. lat., <i>Silene</i> s. lat., <i>Taraxacum</i>, <i>Viola</i>.<br />
+  P.A. Volkova, Russia. – <i>Carex</i> (the <i>Temnemis</i> group), <i>Nymphaea</i>.<br />
+  S. Warwick, Canada. – <i>Smelowskia</i>.<br />
+  K. Westergaard, Norway. – <i>Arenaria</i>, the <i>Saxifraga rivularis</i> group.<br />
+  F. Wischmann, Norway. – <i>Calamagrostis</i>, <i>Carex</i>, <i>Luzula</i>.<br />
+  B.A. Yurtsev [deceased], Russia. – Numerous groups throughout, especially <i>Aconogonon</i>, <i>Arabidopsis</i>, <i>Campanula</i>, <i>Diapensia</i>, <i>Dryas</i>, Ericaceae, Fabaceae, <i>Geum</i>, <i>Juncus</i>, <i>Luzula</i>, <i>Maianthemum</i>, Montiaceae, <i>Nesodraba</i>, <i>Noccaea</i>, Poaceae, <i>Potentilla</i>, Ranunculaceae, <i>Salix</i>, <i>Senecio</i> s. lat., <i>Smelowskia</i>, <i>Suaeda</i>, <i>Taraxacum</i>, <i>Transberingia</i>.<br />
+  P.Yu. Zhmylev, Russia. – <i>Micranthes</i>, <i>Saxifraga</i>.<br />
+  P.G. Zhukova, Russia. – Chromosome information.</p>
+</div>
+

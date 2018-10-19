@@ -1,0 +1,91 @@
+<h2><%= @entry.paf_id %> <%= @entry.summary %></h2>
+
+<% if @entry.real_distribution.any? || @entry.gbif_id %>
+<div class="extra">
+  <% if @entry.real_distribution.any? %>
+  <div class="distribution">
+  <h4>Distribution</h4>
+  <p>
+  <% @entry.real_distribution.each do |distribution| %>
+  <%= distribution.summary %><br>
+  <% end %>
+  </p>
+  </div>
+  <% end %>
+
+  <% if @entry.gbif_id %>
+  <a href="http://www.gbif.org/species/<%= @entry.gbif_id %>">
+    GBIF
+  </a>
+  <% end %>
+</div>
+<% end %>
+
+<% if @entry.references.any? || !@entry.chromosomes.to_s.empty? || !@entry.geography.to_s.empty? || !@entry.html.empty? || @entry.members.any? %>
+
+<% if @entry.references.any? %>
+<ul>
+  <% @entry.references.each do |ref| %>
+  <% next if ref.raw[/^Section/] %>
+  <li><%= @entry.htmlize(ref.raw.gsub(/___(.+?)___/, '<i>\1</i>')) %></li>
+  <% end %>
+</ul>
+<% end %>
+
+<% unless @entry.chromosomes.to_s.empty? %>
+<p><b>2n=</b>
+<%= @entry.chromosomes.gsub(/\n+/, '<br>') %></p>
+<% end %>
+
+<% unless @entry.geography.to_s.empty? %>
+<p><b>Geography</b>: <%= @entry.geography %></p>
+<% end %>
+
+<% unless @entry.html.empty? %>
+<p><b>Notes</b>: <%= @entry.html %></p>
+<% end %>
+
+<% if @entry.members.any? %>
+<ul>
+  <% @entry.members.each do |member| %>
+  <li><%= member.summary %> - <%= member.geography %>
+  <% end %>
+</ul>
+<% end %>
+<% else %>
+<p>-</p>
+<% end %>
+
+<% if @entry.images.any? %>
+<ul class="imagelist">
+  <% @entry.images.each do |image| %>
+  <li>
+    <a href="<%= image.source_url %>">
+      <img src="<%= path(image.url) %>">
+    </a><br>
+    <small class="description"><%= image.text %></small><br>
+    <small class="source">Source: <i><%= image.author %></i> at <i><%= image.source %></i></small>
+  </li>
+  <% end %>
+</ul>
+<% end %>
+
+<div id="taxonomy">
+<% if parent = Entry[:paf_id => @entry.parent] %>
+<div class="simple-list">
+<h3 class='f'>Higher Taxa</h3>
+<ul class="children">
+  <li><a class="paf" href="<%= path(parent.paf_id) %>"><%= parent.short(:text) %></a> [<%= [parent.paf_id, parent.ranking].join(',') %>]</li>
+</ul>
+</div>
+<% end %>
+
+<% if !@entry.children.empty? %>
+<div class="simple-list">
+<h3 class='f'>Lower Taxa (<a id="show-all">Show all</a>)</h3>
+<%= erb :_tax, :layout => false, :locals => { :children => @entry.children } %>
+</div>
+<% end %>
+</div>
+
+

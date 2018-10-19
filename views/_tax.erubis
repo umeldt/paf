@@ -1,0 +1,9 @@
+<% if !children.empty? %>
+  <ul class="children">
+  <% children.each do |child| %>
+  <li><a class="paf" href="<%= path(child.paf_id) %>"><%= child.short(:text) %></a></li>
+  <%= erb :_tax, :layout => false, :locals => { :children => child.children } %>
+  <% end %>
+  </ul>
+<% end %>
+
